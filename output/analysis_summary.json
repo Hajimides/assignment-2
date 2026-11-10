@@ -1,0 +1,77 @@
+{
+  "sentence_count": 3262,
+  "predicted_label_counts": {
+    "negative": 2708,
+    "positive": 554
+  },
+  "mean_prob_positive": 0.42652628944512566,
+  "low_confidence_count": 2019,
+  "zero_feature_count": 52,
+  "short_sentence_count": 316,
+  "suspected_text_issue_count": 12,
+  "analysis_file_sha256": "565003d70a3ab75e670ac9f90129f3cf3e4a31d15dd650dcc79dee223f71ee89",
+  "analysis_reference_evaluation": {
+    "accuracy": 0.75,
+    "confusion_matrix": [
+      [
+        14,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.7777777777777778,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.8484848484848485,
+        "support": 15.0
+      },
+      "positive": {
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1-score": 0.2857142857142857,
+        "support": 5.0
+      },
+      "accuracy": 0.75,
+      "macro avg": {
+        "precision": 0.6388888888888888,
+        "recall": 0.5666666666666667,
+        "f1-score": 0.5670995670995671,
+        "support": 20.0
+      },
+      "weighted avg": {
+        "precision": 0.7083333333333333,
+        "recall": 0.75,
+        "f1-score": 0.7077922077922079,
+        "support": 20.0
+      }
+    },
+    "accuracy_wilson_95_interval": [
+      0.5312949900419365,
+      0.888139947210597
+    ],
+    "training_majority_baseline": {
+      "predicted_label": "negative",
+      "accuracy": 0.75,
+      "macro_f1": 0.42857142857142855
+    }
+  },
+  "analysis_reference_scored_n": 20,
+  "analysis_review_label_counts": {
+    "neutral": 17,
+    "negative": 15,
+    "positive": 5,
+    "unclear": 2,
+    "mixed": 1
+  },
+  "analysis_review_completed_n": 40,
+  "analysis_binary_fraction_of_reviewed": 0.5,
+  "warning": "Binary predictions include neutral/mixed sentences. Reference accuracy applies only to reviewed positive/negative items; full-novel accuracy remains unknown. Scores are not calibrated emotional intensity."
+}

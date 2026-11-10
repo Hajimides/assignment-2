@@ -1,0 +1,110 @@
+{
+  "accuracy": 0.7058823529411765,
+  "confusion_matrix": [
+    [
+      51,
+      6
+    ],
+    [
+      24,
+      21
+    ]
+  ],
+  "confusion_matrix_order": [
+    "negative",
+    "positive"
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.68,
+      "recall": 0.8947368421052632,
+      "f1-score": 0.7727272727272727,
+      "support": 57.0
+    },
+    "positive": {
+      "precision": 0.7777777777777778,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.5833333333333334,
+      "support": 45.0
+    },
+    "accuracy": 0.7058823529411765,
+    "macro avg": {
+      "precision": 0.7288888888888889,
+      "recall": 0.6807017543859649,
+      "f1-score": 0.678030303030303,
+      "support": 102.0
+    },
+    "weighted avg": {
+      "precision": 0.7231372549019608,
+      "recall": 0.7058823529411765,
+      "f1-score": 0.6891711229946524,
+      "support": 102.0
+    }
+  },
+  "accuracy_wilson_95_interval": [
+    0.6112816903971267,
+    0.7855377076467428
+  ],
+  "experiment": {
+    "random_seed": 42,
+    "split": "stratified 80/20 before fit",
+    "total_n": 509,
+    "class_counts": {
+      "positive": 223,
+      "negative": 286
+    },
+    "train_n": 407,
+    "test_n": 102,
+    "train_class_counts": {
+      "positive": 178,
+      "negative": 229
+    },
+    "test_class_counts": {
+      "negative": 57,
+      "positive": 45
+    },
+    "features": {
+      "kind": "TF-IDF",
+      "tokenizer": "jieba, HMM=False",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_features": 10000,
+      "sublinear_tf": true,
+      "actual_vocabulary_size": 1465,
+      "stop_words": null
+    },
+    "classifier": {
+      "type": "LogisticRegression",
+      "C": 1.0,
+      "penalty": "l2",
+      "solver": "liblinear",
+      "max_iter": 2000
+    },
+    "reference_labels": "AI-initialized; student-reviewed items identified by annotation_method; review coverage tracked separately",
+    "human_review": {
+      "training_sample": 60,
+      "training_human_completed": 60,
+      "training_agreement_with_initial_AI": 1.0,
+      "analysis_sample": 40,
+      "analysis_human_completed": 40
+    },
+    "exact_train_test_duplicates": 0,
+    "near_train_test_duplicates": 0,
+    "analysis_training_exact_overlaps": 0,
+    "cross_work_cv_scope": "training 80% only, no test or analysis text used for feature fitting or model selection",
+    "hyperparameters_selected_before_first_test_evaluation": true,
+    "data_sha256": "823c27e83d259e0b8fb4ea01feb141decbe4bcf4b30b13bcd356a1272d230091",
+    "python_version": "3.12.14",
+    "package_versions": {
+      "scikit-learn": "1.7.2",
+      "jieba": "0.42.1",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "matplotlib": "3.10.7",
+      "joblib": "1.6.0"
+    }
+  }
+}

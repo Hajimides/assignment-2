@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/mcjkurz/qhchina-data",
+  "revision": "4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4",
+  "files": [
+    {
+      "source": "鲁迅_呐喊",
+      "url": "https://raw.githubusercontent.com/mcjkurz/qhchina-data/4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4/corpora/modern/%E9%B2%81%E8%BF%85_%E5%91%90%E5%96%8A.txt",
+      "sha256": "7bc721237a9717a852ef88c2731034f1d59d38c588ad007776b4de53f5ceff0b",
+      "role": "training_candidate_source"
+    },
+    {
+      "source": "老舍_骆驼祥子",
+      "url": "https://raw.githubusercontent.com/mcjkurz/qhchina-data/4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4/corpora/modern/%E8%80%81%E8%88%8D_%E9%AA%86%E9%A9%BC%E7%A5%A5%E5%AD%90.txt",
+      "sha256": "119d4f289a1e73505576e712ae5e10df8b4935415d1adb75ed42c7814d6f94ab",
+      "role": "training_candidate_source"
+    },
+    {
+      "source": "巴金_寒夜",
+      "url": "https://raw.githubusercontent.com/mcjkurz/qhchina-data/4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4/corpora/modern/%E5%B7%B4%E9%87%91_%E5%AF%92%E5%A4%9C.txt",
+      "sha256": "85f280ce59841593eea55a03f5243b248c5fe02aa9a2789e8854fc447d1df67b",
+      "role": "training_candidate_source"
+    },
+    {
+      "source": "沈从文_边城",
+      "url": "https://raw.githubusercontent.com/mcjkurz/qhchina-data/4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4/corpora/modern/%E6%B2%88%E4%BB%8E%E6%96%87_%E8%BE%B9%E5%9F%8E.txt",
+      "sha256": "0bda179c8e79b5ed410e5f3fbaa5b97ea6bf1d22bbc6473d30b67e60bb8946e7",
+      "role": "training_candidate_source"
+    },
+    {
+      "source": "钱钟书_围城",
+      "url": "https://raw.githubusercontent.com/mcjkurz/qhchina-data/4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4/corpora/modern/%E9%92%B1%E9%92%9F%E4%B9%A6_%E5%9B%B4%E5%9F%8E.txt",
+      "sha256": "efb3b55b85233ac4b35cf5a49fbff65295d84205bd5a7384724dbbea9129739e",
+      "role": "training_candidate_source"
+    },
+    {
+      "source": "茅盾_子夜",
+      "url": "https://raw.githubusercontent.com/mcjkurz/qhchina-data/4f4f2b61b560d5daff3d920eb2dfa72a7a47d7b4/corpora/modern/%E8%8C%85%E7%9B%BE_%E5%AD%90%E5%A4%9C.txt",
+      "sha256": "335933a366eea6d14a946dd4c690c2c655ecd06f8f8f26bd2626cff045e6c21f",
+      "role": "training_candidate_source"
+    }
+  ]
+}

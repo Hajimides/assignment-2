@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.DS_Store
+.cache/
+data/raw/
+output/model.joblib
+output/private/
+余华_活着.txt
+# Keep the user's original exports locally; canonical copies live in data/.
+/human_review.csv
+/analysis_human_review.csv
+*.textClipping
